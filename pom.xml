@@ -70,7 +70,6 @@
        </snapshotRepository>
     </distributionManagement>
 
-<<<<<<< HEAD
     <dependencyManagement>
         <dependencies>
             <!-- JBoss distributes a complete set of Java EE 6 APIs including a Bill
@@ -88,26 +87,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-=======
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.jboss.bom</groupId>
-				<artifactId>jboss-eap-javaee7</artifactId>
-				<version>${version.jboss.bom.eap}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.jboss.bom</groupId>
-				<artifactId>jboss-eap-javaee7-with-tools</artifactId>
-				<version>${version.jboss.bom.eap}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
->>>>>>> 06af277... added site report
 
     <dependencies>
         <!-- Import the CDI API, we use provided scope as the API is included in JBoss EAP 6 -->
